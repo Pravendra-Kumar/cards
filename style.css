@@ -1,0 +1,185 @@
+body{
+  text-align: center;
+}
+
+h1{
+    margin:0 30px  30px 30px;
+    color: white;
+}
+p{
+ line-height: 1.5;
+ font: normal;
+  margin:0 30px 30px 30px;
+  color: white;
+}
+
+
+.cards{
+
+  text-align: center;
+  margin-top: 100px;
+  margin:100px  19%;
+
+
+box-sizing:order-box;
+
+}
+
+
+.card1{
+  background-color:#F49D1A;
+  float:left;
+  width:250px;
+
+border-radius:10px 0 0 10px;
+text-align:left;
+height:400px
+
+
+}
+
+.card2{
+  background-color:#4649FF;
+  float:left;
+  width:250px;
+
+  text-align:left;
+  height:400px;
+
+}
+
+.card3{
+
+  background-color:#153462;
+  float:left;
+  width:250px;
+  border-radius:0 10px 10px 0;
+  text-align:left;
+  height:400px;
+
+
+}
+
+ .card1 .button{
+  background-color: white;
+  margin:40px 30px;
+  width:100px;
+  border:1px solid white;
+  color:#F49D1A;
+  border-radius:20px;
+  padding: 5px 0px;
+  text-align:center;
+}
+
+.card2 .button{
+ margin:40px 30px;
+ width:100px;
+ border:1px solid white;
+ color:#4649FF;
+ border-radius:20px;
+ padding: 5px 0px;
+ text-align:center;
+ background-color: white;
+}
+
+.card3 .button{
+ margin:40px 30px;
+ width:100px;
+ border:1px solid white;
+ color:#153462;
+ background-color: white;
+ border-radius:20px;
+ padding: 5px 0px;
+ text-align:center;
+}
+
+ .card1 .fa-circle {
+background-color:#F49D1A;
+opacity: 0.2;
+margin:30px 30px 30px 30px;
+text-align: center;
+font-size: 50px;
+}
+
+.card2 .fa-circle {
+background-color:#4649FF;
+opacity: 0.2;
+margin:30px 30px 30px 30px;
+text-align: center;
+font-size: 50px;
+}
+
+
+.card3 .fa-circle {
+background-color:#153462;
+opacity: 0.2;
+margin:30px 30px 30px 30px;
+text-align: center;
+font-size: 50px;
+}
+
+.fa-car-side{
+  margin:30px auto 0 30px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  opacity: 0.4;
+  z-index: 1;
+  height: 2px;
+
+}
+
+.relative {
+  position: relative;
+
+}
+.absolute {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .card1, .card2, .card3 {
+    width: 100%;
+  }
+
+    .card1{
+     border-radius: 10px 10px 0 0;
+     }
+
+        .card3{
+        border-radius:0 0 10px 10px;
+       }
+
+       .cards{
+        text-align: center;
+        margin:100px 5%;
+        margin-bottom: 100px;
+     }
+
+  }
+
+
+
+
+  .card1 .button:hover,.card1 .button:active {
+    color: white;
+    background-color: #F49D1A;
+    cursor: pointer;
+  }
+
+  .card2 .button:hover,.card2 .button:active {
+    color: white;
+    background-color: #4649FF;;
+    cursor: pointer;
+  }
+
+  .card3 .button:hover,.card3 .button:active {
+    color: white;
+    background-color: #153462;
+    cursor: pointer;
+  }
